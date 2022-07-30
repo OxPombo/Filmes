@@ -1,0 +1,81 @@
+.card-imagem{
+    width: 320px;
+    align-self: flex-start;
+    margin: 0px;
+    text-align: center;
+}
+
+.card-imagem img{
+    width: 320px;
+    min-height: 500px;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 20px;
+    transition: box-shadow .3s;
+}
+
+.card:hover .card-imagem img{
+    box-shadow: 0px 0px 10px #111010;
+}
+
+.card-titulo{
+    margin: 0px auto;
+    padding: 10px 0px;
+    width: 90%;
+    box-sizing: border-box;
+    color: #e5e5e5;
+    text-align: center;
+}
+
+.card:hover .card-titulo{
+    transform: scale(1.2);
+}
+
+.card-descricao{
+    margin: 0 auto;
+    padding: 10px 0px;
+    width: 90%;
+    box-sizing: border-box;
+    color: #e5e5e5;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.card-avaliacao{
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    padding: 10px 0px;
+    width: 90%;
+    box-sizing: border-box;
+    color: #e5e5e5;
+    text-align: left;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: #000000;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+

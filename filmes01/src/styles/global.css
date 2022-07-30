@@ -1,0 +1,28 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #D2D7DF;
+}
+
+body {
+    margin: 20px auto;
+    padding: 20px;
+    width: 98%;
+    border: 1px solid #15616D   ;
+    color: #51A3A3;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px #505168;
+    background: #353535; 
+}
+
+h1 {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 5px;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px #000000; 
+}
+
